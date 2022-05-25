@@ -1,0 +1,294 @@
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  height: 100px;
+  transition: all 0.3s ease;
+  
+  @media (max-width: $md3+px) {
+    height: 70px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #202023;
+    z-index: 4;
+  }
+
+  &__content {
+    position: relative;
+    // z-index: 5;
+  }
+
+  &__menu {
+  }
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  transition: all 0.3s ease;
+
+  @media (max-width: $md3+px) {
+    height: 70px;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: $md1+px) {
+      display: none;
+    }
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+  }
+
+  &__tel {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    position: relative;
+    z-index: 4;
+    font-size: 16px;
+    line-height: 130%;
+    color: inherit;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: #db4422;
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &__mail {
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+    font-size: 16px;
+    line-height: 130%;
+    color: inherit;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: #db4422;
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &__logo {
+    flex: 0 0 240px;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+    transition: all 0.2s ease;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+    @media (max-width: 479px) {
+      flex: 0 0 200px;
+    }
+    &:hover {
+      filter: drop-shadow(0 0px 4px rgba(255, 255, 255, 0.8));
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &__whatsapp {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    position: relative;
+    z-index: 4;
+    font-size: 16px;
+    line-height: 130%;
+    color: #20BF6B;
+    transition: all 0.2s ease;
+
+    @media (max-width: $md1+px) {
+      display: none;
+    }
+
+    &:hover {
+      color: #1a9c57;
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &__icon {
+  }
+
+  &__body {
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    top: -100%;
+    left: 0;
+    overflow: auto;
+    background-color: #202023ee;
+    padding: 120px 10px 30px 10px;
+    transition: all 0.4s ease;
+    z-index: 3;
+
+    &.active {
+      top: 0;
+    }
+
+    @media (max-width: $md1+px) {
+      height: 100%;
+    }
+  }
+
+  &__list {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      flex: 0 0 25%;
+      text-align: center;
+      padding: 15px 30px;
+
+      @media (max-width: $md1+px) {
+        flex: 0 0 50%;
+      }
+
+      @media (max-width: 550px) {
+        flex: 0 0 100%;
+      }
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    color: #E15F41;
+    font-size: 24px;
+    line-height: 130%;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: #db4422;
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}
+.icon-menu {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 18px;
+  cursor: pointer;
+  z-index: 4;
+
+  span {
+    transition: all 0.3s ease 0s;
+    top: calc(50% - 1px);
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+
+    &:first-child {
+      top: 0;
+    }
+    &:last-child {
+      top: auto;
+      bottom: 0px;
+    }
+  }
+
+  &.active {
+    span {
+      transform: scale(0);
+      &:first-child {
+        transform: rotate(-45deg);
+        top: calc(50% - 1px);
+      }
+      &:last-child {
+        transform: rotate(45deg);
+        bottom: calc(50% - 1px);
+      }
+    }
+  }
+}
+
+
+.menu {
+
+  &__contacts-min {
+    text-align: center;
+    margin: 0 0 30px 0;
+
+    @media (min-width: $md1+px) {
+      display: none;
+    }
+
+    @media (max-width: $md3+px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__tel-min {
+    font-size: 16px;
+    line-height: 130%;
+    color: inherit;
+    padding: 0 15px;
+
+    @media (max-width: $md3+px) {
+      margin: 0 0 30px 0;
+    }
+  }
+
+  &__mail-min {
+    font-size: 16px;
+    line-height: 130%;
+    color: inherit;
+    padding: 0 15px;
+
+    @media (max-width: $md3+px) {
+      margin: 0 0 30px 0;
+    }
+  }
+
+  &__whatsapp-min {
+    font-size: 16px;
+    line-height: 130%;
+    color: #20BF6B;
+    padding: 0 15px;
+  }
+}
+
+.header-shadow {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+  height: 50px;
+}
+
+.menu-min {
+  height: 50px;
+}

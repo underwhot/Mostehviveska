@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleble=0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>МосТехВывеска | Производство рекламы</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="page">
+      <!-- @import "header.html" -->
+
+      <div class="main-block">
+        <div class="main-block__image ibg">
+          <div class="container">
+            <div class="main-block__items">
+              <div class="main-block__content">
+                <div class="main-block__title title">Производство наружной и интерьерной рекламы</div>
+                <div class="main-block__text text">Изготавливаем рекламные вывески по Москве и Московской области</div>
+                <div class="main-block__buttons">
+                  <a href="#" class="main-block__btn btn">Позвонить</a>
+                  <a href="#" class="main-block__btn btn btn-trans">Написать в WhatsApp</a>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="main-block__arrow"></a>
+          </div>
+          <img src="img/bg2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="container">
+          <div class="about__content">
+            <div class="about__title title">О компании</div>
+            <div class="about__subtitle subtitle">Вывеска сделанная у нас будет качественно рекламировать товар или
+              услугу днем и ночью.</div>
+            <div class="about__text text">Наша компания специализируется на выполнении рекламно-оформительских работ с
+              использованием современных материалов и технологий. Богатый опыт работы в этой сфере позволяет
+              удовлетворить любые пожелания и реализовать даже самые сложные проекты наших заказчиков.
+              <br> — предоставляем высокий уровень сервиса;
+              <br> — ищем достойные решения и реализовываем их в кротчайшие сроки;
+              <br> — заботимся о качестве и обращаем внимание на детали.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cost">
+        <div class="container">
+          <div class="cost__content">
+            <div class="cost__title title">Услуги и цены</div>
+            <div class="cost__items cards">
+              <div class="cards__row">
+                <div class="cards__items">
+                  <div class="cards__card card">
+                    <a href="#" class="card__image ibg"><img src="img/cost/01.jpg" alt=""></a>
+                    <div class="card__cost">от 60 руб/см*</div>
+                    <a href="#" class="card__title">Объемные буквы с лицевой подсветкой</a>
+                    <a href="#" class="card__text">Узнать подробнее</a>
+                  </div>
+                </div>
+                <div class="cards__items">
+                  <div class="cards__card card">
+                    <a href="#" class="card__image ibg"><img src="img/cost/02.jpg" alt=""></a>
+                    <div class="card__cost">от 70 руб/см*</div>
+                    <a href="#" class="card__title">Объемные буквы с контражурной подсветкой</a>
+                    <a href="#" class="card__text">Узнать подробнее</a>
+                  </div>
+                </div>
+                <div class="cards__items">
+                  <div class="cards__card card">
+                    <a href="#" class="card__image ibg"><img src="img/cost/03.jpg" alt=""></a>
+                    <div class="card__cost">от 40 руб/см*</div>
+                    <a href="#" class="card__title">Несветовые объемные буквы</a>
+                    <a href="#" class="card__text">Узнать подробнее</a>
+                  </div>
+                </div>
+                <div class="cards__items">
+                  <div class="cards__card card">
+                    <a href="#" class="card__image ibg"><img src="img/cost/04.jpg" alt=""></a>
+                    <div class="card__cost">от 90 руб/см*</div>
+                    <a href="#" class="card__title">Буквы из нержавеющей стали</a>
+                    <a href="#" class="card__text">Узнать подробнее</a>
+                  </div>
+                </div>
+                <div class="cards__items">
+                  <div class="cards__card card">
+                    <a href="#" class="card__image ibg"><img src="img/cost/05.jpg" alt=""></a>
+                    <div class="card__cost">900 руб/м²</div>
+                    <a href="#" class="card__title">Зеркальная тонировка окон</a>
+                    <a href="#" class="card__text">Узнать подробнее</a>
+                  </div>
+                </div>
+                <div class="cards__items">
+                  <div class="cards__card card">
+                    <a href="#" class="card__image ibg"><img src="img/cost/06.jpg" alt=""></a>
+                    <div class="card__cost">Расчет стоимости</div>
+                    <a href="#" class="card__title">Интерьерное оформление</a>
+                    <a href="#" class="card__text">Узнать подробнее</a>
+                  </div>
+                </div>
+                <div class="cards__items">
+                  <div class="cards__card card">
+                    <a href="#" class="card__image ibg"><img src="img/cost/07.jpg" alt=""></a>
+                    <div class="card__cost">Расчет стоимости</div>
+                    <a href="#" class="card__title">Ремонт и обслуживание</a>
+                    <a href="#" class="card__text">Узнать подробнее</a>
+                  </div>
+                </div>
+                <div class="cards__items">
+                  <div class="cards__card card">
+                    <a href="#" class="card__image ibg"><img src="img/cost/08.jpg" alt=""></a>
+                    <div class="card__cost">Расчет стоимости</div>
+                    <a href="#" class="card__title">Согласование и регистрация</a>
+                    <a href="#" class="card__text">Узнать подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cost__text">*Стоимость сантиметра высоты изделия</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects">
+        <div class="container">
+          <div class="projects__body">
+            <div class="projects__title title">Наши проекты</div>
+            <div class="projects__content">
+              <div class="projects__row">
+                <div class="projects__card card-project">
+                  <a href="#" class="card-project__body">
+                    <div class="card-project__bg"></div>
+                    <div class="card-project__text">@mtviveska</div>
+                  </a>
+                </div>
+                <div class="projects__card card-project">
+                  <a href="#" class="card-project__body">
+                    <div class="card-project__image ibg">
+                      <img src="img/projects/01.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="projects__card card-project">
+                  <a href="#" class="card-project__body">
+                    <div class="card-project__image ibg">
+                      <img src="img/projects/02.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="projects__card card-project">
+                  <a href="#" class="card-project__body">
+                    <div class="card-project__image ibg">
+                      <img src="img/projects/03.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="partners">
+        <div class="container">
+          <div class="partners__title title">Наши партнеры</div>
+          <div class="partners__text text">Изготавливаем наружную и интерьерную рекламную продукцию для малого, среднего
+            и крупного бизнеса. Главная наша цель — оперативное и качественное решение задач и проблем наших клиентов.
+          </div>
+          <div class="partners__content">
+            <div class="partners__items">
+              <div class="partners__item">
+                <a href="#" class="partners__image">
+                  <img src="img/partners/01.png" alt="">
+                </a>
+              </div>
+              <div class="partners__item">
+                <a href="#" class="partners__image">
+                  <img src="img/partners/03.png" alt="">
+                </a>
+              </div>
+              <div class="partners__item">
+                <a href="#" class="partners__image">
+                  <img src="img/partners/02.png" alt="">
+                </a>
+              </div>
+              <div class="partners__item">
+                <a href="#" class="partners__image">
+                  <img src="img/partners/04.png" alt="">
+                </a>
+              </div>
+              <div class="partners__item">
+                <a href="#" class="partners__image">
+                  <img src="img/partners/05.png" alt="">
+                </a>
+              </div>
+              <div class="partners__item">
+                <a href="#" class="partners__image">
+                  <img src="img/partners/06.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reason">
+        <div class="container">
+          <div class="reason__title title">3 причины выбрать нас</div>
+          <div class="reason__content">
+            <div class="reason__column">
+              <div class="reason__subtitle">Срочный выезд специалиста</div>
+              <div class="reason__text">Наш специалист выполнит замер фасада и ответит на Ваши вопросы</div>
+            </div>
+            <div class="reason__column">
+              <div class="reason__subtitle">Дизайн-макет в подарок</div>
+              <div class="reason__text">Наш дизайнер нарисует вывеску соответствующую Вашим предпочтениям и требованиям
+                закона</div>
+            </div>
+            <div class="reason__column">
+              <div class="reason__subtitle">Изготовление
+                от 1 дня</div>
+              <div class="reason__text">Качественное выполнение работ в минимальные сроки</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="process">
+        <div class="container">
+          <div class="process__title title">Этапы процесса </div>
+          <div class="process__content">
+            <div class="process__row">
+              <div class="process__column">
+                <div class="process__number">1</div>
+                <div class="process__line"></div>
+              </div>
+              <div class="process__column">
+                <div class="process__items">
+                  <div class="process__subtitle">Заявка</div>
+                  <div class="process__text">Получаем от Ваc заявку по <a href="#">телефону</a>, <a
+                      href="#">WhatsApp</a> или <a href="#">почте</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="process__row">
+              <div class="process__column">
+                <div class="process__number">2</div>
+                <div class="process__line"></div>
+              </div>
+              <div class="process__column">
+                <div class="process__items">
+                  <div class="process__subtitle">Расчет</div>
+                  <div class="process__text">На основе технического задания проводим расчет стоимости изготовления</div>
+                </div>
+              </div>
+            </div>
+            <div class="process__row">
+              <div class="process__column">
+                <div class="process__number">3</div>
+                <div class="process__line"></div>
+              </div>
+              <div class="process__column">
+                <div class="process__items">
+                  <div class="process__subtitle">Договор</div>
+                  <div class="process__text">Заключаем договор с техническим описанием проекта и установленными сроками
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="process__row">
+              <div class="process__column">
+                <div class="process__number">4</div>
+                <div class="process__line process__line_none"></div>
+              </div>
+              <div class="process__column">
+                <div class="process__items">
+                  <div class="process__subtitle">Изготовление</div>
+                  <div class="process__text">Приступаем к изготовлению заказа и его последующему монтажу</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="agreement">
+        <div class="container">
+          <div class="agreement__title title">Согласование вывески</div>
+          <div class="agreement__content details one">
+            <div class="details__item">
+              <div class="details__title">Зачем согласовывать вывеску?</div>
+              <div class="details__text">Для избежания недопонимания с государственными органами необходимо делать
+                оформление рекламных средств, в соответствии с установленными правилами. Наша компания занимается
+                оформление всех необходимых документов, сертифицированные инженеры в срок делают конструктивные решения,
+                которое соответствует всем требования к размещению рекламных средств.</div>
+            </div>
+            <div class="details__item">
+              <div class="details__title">Какие вывески подлежат согласованию?</div>
+              <div class="details__text">Согласованию подлежат все вывески размещаемые на фасадах зданий и торговых
+                центров в городах Московской области. В Москве регистрация вывесок не требуется при соблюдении <a
+                  href="#">902-ПП</a>.</div>
+            </div>
+            <div class="details__item">
+              <div class="details__title">Согласование вывесок в городах Московской области</div>
+              <div class="details__text">Для упрощения процедуры и экономии сил и финансовых средств обращайтесь к нам —
+                специалистам по работе с наружной рекламой, досконально знающим все нюансы регистрации вывесок и
+                способным минимизировать затраты времени и нервов на подготовку и сбор всех необходимых документов.
+              </div>
+            </div>
+          </div>
+          <div class="agreement__docs">
+            <a href="#" class="agreement__link">Список запрашиваемых документов для согласования вывески</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contacts">
+        <div class="container">
+          <div class="contacts__title title">Контакты</div>
+          <div class="contacts__text">Производство: г. Москва, ул. Фабричная 6, стр. 2</div>
+          <div class="contacts__content">
+            <div class="contacts__column contact">
+              <div class="contact__row">
+                <div class="contact__item">
+                  <a href="#" class="contact__image"><img src="img/icons/tel.png" alt=""></a>
+                </div>
+                <div class="contact__item">
+                  <a href="#" class="contact__title">+7 (499) 841-69-31</a>
+                  <div class="contact__info">
+                    <p>Пн-Сб: 10:00-20:00</p>
+                    <p>Вс: выходной</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contacts__column contact">
+              <div class="contact__row">
+                <div class="contact__item">
+                  <a href="#" class="contact__image"><img src="img/icons/tel.png" alt=""></a>
+                </div>
+                <div class="contact__item">
+                  <a href="#" class="contact__title">+7 (901) 189-33-35</a>
+                  <div class="contact__info">
+                    <p>WhatsApp:</p>
+                    <a href="#">+79011893335</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contacts__column contact">
+              <div class="contact__row contact__row_center">
+                <div class="contact__item">
+                  <a href="#" class="contact__image"><img src="img/icons/mail.png" alt=""></a>
+                </div>
+                <div class="contact__item">
+                  <a href="#" class="contact__title">info@mostehviveska.ru</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="map">
+        <div class="map__body">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1628.4296267974566!2d32.56122036713381!3d46.65280924169894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1653505641212!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <!-- @import "footer.html" -->
+
+      <a href="#" class="back-to-top"></a>
+
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
